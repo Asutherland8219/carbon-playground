@@ -1,0 +1,10 @@
+[requires]
+openssl/1.1.1q
+zlib/1.2.12
+cmake/3.23.2
+
+[generators]
+virtualenv
+CMakeDeps
+CMakeToolchain
+
