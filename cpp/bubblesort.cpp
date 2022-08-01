@@ -14,7 +14,7 @@ int main()
 
 	{
 		cout<<arr[i]<<"\t";
-	{
+	}
 	cout<<endl;
 
 	for(int i=0;i<8;i++)
@@ -28,7 +28,12 @@ int main()
 					arr[j]=temp;
 				}
 			}
-		}
 	}
-}
-}
+	cout<<"Sorted elements: \n";
+	for(int i=0; i<8;i++)
+	{
+		cout<<arr[i]<<"\t";
+	}
+	cout<<endl;
+	
+	};
