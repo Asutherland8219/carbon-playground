@@ -13,7 +13,7 @@ int main()
 
     int width{7}; // Brace initialization; preferred method
 
-    std::cout<<width;
+    std::cout<<"The width is equal to:" << width;
 
     return 0;
 
