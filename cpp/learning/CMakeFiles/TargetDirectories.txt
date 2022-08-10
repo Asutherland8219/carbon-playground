@@ -1,0 +1,3 @@
+/home/suds171/Documents/carbon-playground/cpp/learning/CMakeFiles/app.dir
+/home/suds171/Documents/carbon-playground/cpp/learning/CMakeFiles/edit_cache.dir
+/home/suds171/Documents/carbon-playground/cpp/learning/CMakeFiles/rebuild_cache.dir

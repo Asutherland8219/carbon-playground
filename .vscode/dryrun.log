@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/suds171/Documents/carbon-playground'
+make: Leaving directory '/home/suds171/Documents/carbon-playground'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
