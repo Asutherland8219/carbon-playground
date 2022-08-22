@@ -1,13 +1,5 @@
+#include "food.h"
 #include <iostream>
-
-const char* RecommendMeAFood(char firstLetter);
-
-int main()
-{
-    std::cout << "Today I'll eat" << RecommendMeAFood('c');
-
-    system("pause>0");
-}
 
 const char* RecommendMeAFood(char firstLetter) {
     if (firstLetter == 'a' || firstLetter == 'A')
@@ -19,3 +11,8 @@ const char* RecommendMeAFood(char firstLetter) {
     else return "apple";
        
 }
+
+void GetPizzaRecipe() {
+    std::cout <<"To make pizza you need ...";
+}
+
