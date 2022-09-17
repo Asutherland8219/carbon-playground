@@ -19,4 +19,9 @@ int main()
 
     std::cout << (x | std::bitset<4>{ 0b0101 }) << '\n';
 
+    // Additionally we have the XOR operator (^) which evaluates to true if one and only one
+    // of the operators are true. If neither are true or both are true, it evaluates to 0
+
+    
+
 }
