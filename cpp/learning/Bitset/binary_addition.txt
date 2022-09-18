@@ -1,0 +1,18 @@
+We can also do binary/bit addition. Though while it seems difficult it is quite easy once you get 
+the hang of it.
+
+Lets take two decimal numbers and convert them to binary; 6 and 7 
+
+6 -> 0110
+7 -> 0111
+
+When you conduct addition, there are only 4 possible outcomes:
+
+0 + 0 = 0
+0 + 1 = 1
+1 + 0 = 1
+1 + 1 = 0, carry the 1 
+
+ 0110   We will do it like this because columnar addition is easier to visualize this way
++0111
+
