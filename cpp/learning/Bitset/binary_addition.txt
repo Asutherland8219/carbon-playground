@@ -16,3 +16,33 @@ When you conduct addition, there are only 4 possible outcomes:
  0110   We will do it like this because columnar addition is easier to visualize this way
 +0111
 
+With addition we move from left to right:
+Column 4: 0 + 1 = 1
+Column 3: 1 + 1 = 0 carry 1
+Column 2: 1 + 1 = 1 carry 1 
+Column 1: 0 + 0 = 1 but 1 carry so 1
+
+then because we go left from right we have to return the response bottom up
+
+The value becomes 1101
+
+We can actually check this by looking at the decimal return;
+1101 is 13 in decimal which is 6 + 7
+
+We can also handle signed integers and convert them to binary. 
+For example, say we have -76
+
+First we return the positive value of -76:
+
+76 = 0100 1100
+
+Then we invert that value:
+    1011 0011
+
+Finally, we add 1 
+
+1011 0011
+0000 0001
+
+1011 0100  == -76
+

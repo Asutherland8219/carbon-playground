@@ -38,7 +38,7 @@ Method 2 :
     and will try to use the number 148.
 
     We need to figure out the largest power of 2 that is smaller than 148. **This means in the
-    multiples of memory (256, 128, 64, 32, 16, 8, 4, 2)
+    multiples of memory (128, 64, 32, 16, 8, 4, 2)
 
     According to the above, the closest would be 128. From there, we tally up the numbers that add up 
     to 148
@@ -48,3 +48,14 @@ Method 2 :
 
     Now we simply add them together and we get the binary value 
     148 = 1001 0100
+
+
+How about converting a binary value to a decimal? We can do that using method 2 as well.
+Note: Start at 128 because 256 is duodecimal? I think at least
+
+Lets try the number 0100 1101
+
+    0       1       0       0       1       1       0       1      
+    128     64      32      16      8       4       2       1    
+
+Adding up all the 1's you get 77!
