@@ -1,0 +1,27 @@
+Naming collision and namespace issues can occur when a name of a function results in a collision due to a same name in the global scope.
+
+We can solve this in a few ways. One being we simply change the name of the function but this can be time consuming and still result in errors.
+
+Another way, is to create our own namespace. These are called user-defined namespaces; they are different from the other namespaces that C++
+provides (like namespace std)
+
+Namespace identifiers are typically noncapitlized
+
+Typically, we would define the namespace in its own file. And then call it similar to how we call std.
+
+As an example, if we had a namespace called "oof" with a function called "execute" it would be called like so:
+    
+    std::cout << oof::execute()
+
+We use the scope resolution operator to do so ( :: )
+
+You can also have multiple namespaces across multiple files or places.
+
+*** Do NOT add custom functionality to the std namespace ***
+
+With namespaces, you can also overwrite existing functions with similar names, provided you add the:
+#include and include the file you wish to use.
+
+Nested namespaces also exist but can get very convoluted when trying to call them in the code. This is why C++
+has created namespace aliases. This will allow you to call the alias instead making for cleaner and more readable code.
+

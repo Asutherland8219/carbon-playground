@@ -1,0 +1,15 @@
+A compound statement, also called a block or block statement is a group of zero or more statements that is treated as a single statement. 
+
+Think similar to class methods in python or a class with multiple defined functions. 
+
+Blocks can be nested inside of one another. Creating both an outer block and inner block concept. 
+
+Blocks, mainly, are used to handle if statements or logic gates.
+
+When dealing with nesting, you get nesting level or neseting depth. If you 4 blocks total, 3 of which are nested then your nesting level is 3. We typically 
+do not count the outer block when counting the nesting level. 
+
+In C++, most compilers support up to 256 levels of nesting (LOL)...
+For readability in everyday code however, it is best practice to keep nesting to around 3 levels.
+
+
