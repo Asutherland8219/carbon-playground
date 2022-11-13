@@ -1,0 +1,19 @@
+Local variabls are variable that are limited within a local space. 
+
+Local variables also have block scope, meaning they are in scope with the block they are defined within. 
+
+Variable names within a scope must be unique and cannot be ambiguous.
+
+Variables that are created within a block are deleted outside of a block. 
+
+Identifiers have another property called linkage. The linkage determines whether other declarations of that name refer to 
+the same object or not. 
+
+Local variabls, have no linkage. 
+
+While scope and linkage seem similar, "scope defines where a single declaration can be seen and used. 
+Linkage defines whether multiple declarations refer to the same object or not."
+
+Variables should be defined in the most limited scope; if it is only used in the block, it should be defined in the block.
+Think CRUD and DRY principles.
+
