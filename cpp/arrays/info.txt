@@ -1,0 +1,9 @@
+This folder is for learning about array manipulation in C++. 
+
+We want to create a 3d dimensional array that has:
+1. Identifier
+2. Cost
+3. Allocation / 100 
+
+The easiest thing to do for the identifier is create a map function and convert this value to a numeric value for calculations
+
